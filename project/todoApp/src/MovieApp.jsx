@@ -11,7 +11,7 @@ function MovieApp() {
 
   const toggleLike = (id) => {
     setLikedMovies((prev) =>
-      prev.includes(id) ? prev.filter((movieId) => movieId !== id) : [...prev, id]
+      prev.includes(id) ? prev.filter((movieId) => movieId !== id) : [...prev, id] // if the movie is already liked, remove it from the likedMovies array, otherwise add it
     );
   };
 

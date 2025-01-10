@@ -8,9 +8,9 @@ import Tracker from './Tracker.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <TodoApp /> */}
+    <TodoApp />
     {/* <ProductList /> */}
     {/* <MovieApp /> */}
-    <Tracker />
+    {/* <Tracker /> */}
   </StrictMode>,
 )
